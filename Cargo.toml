@@ -1,19 +1,20 @@
 [package]
 name = "lcd_ili9225_rs"
-version = "0.1.0"
+version = "0.1.2"
 authors = ["413<the413reply@gmail.com>"]
-edition = "2021"
+edition = "2024"
 description = "A simple crate for ili9225 lcd with embedded-hal "
 repository = "https://github.com/syx-413/ILI9225"
 keywords = ["ili9225", "spi", "embedded"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
+exclude = ["ILI9225.pdf"]
 [dependencies]
 embedded-hal = "1.0.0"
 nb = "1.1.0"
 
 [dependencies.embedded-graphics-core]
-version = "0.4"
+version = "0.4.1"
 optional = true
 
 [features]
